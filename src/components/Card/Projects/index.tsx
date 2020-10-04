@@ -16,9 +16,9 @@ export default function CardProjects({
 }: Project<string>): JSX.Element {
   return (
     <a href={url} target="_blank" rel="noopener noreferrer">
-      <div id="projects">
-        <img src={image} alt={description} />
-        <h2>{text}</h2>
+      <div id="projects" data-testid="wrapper">
+        <img src={image} alt={description} data-testid="image" />
+        <h2 data-testid="text">{text}</h2>
       </div>
     </a>
   );

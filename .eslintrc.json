@@ -38,6 +38,7 @@
     "no-redeclare":"off",
     "no-unused-vars":"off",
     "consistent-return":"off",
+    "no-return-assign":"off",
     "import-helpers/order-imports": ["warn",
       {
         "newlinesBetween": "always",
